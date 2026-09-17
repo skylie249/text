@@ -1,5 +1,5 @@
 export const SITE_NAME = "NexaLab Tools";
-export const SITE_URL = "https://tools.nexalab.app";
+export const SITE_URL = "https://text.nexalab.app";
 export const SITE_DESCRIPTION =
   "Free, fast, browser-based text and productivity tools. No sign-up, no data leaves your browser.";
 

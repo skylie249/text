@@ -35,7 +35,9 @@ npm run start
 
 ## Deployment notes
 
-Intended to be deployed as a subdomain of nexalab.app (e.g. `tools.nexalab.app`), similar to the existing `paycheck.nexalab.app` sub-project. Update `SITE_URL` in `lib/site.ts` to match the final domain before deploying, and link to it from the main nexalab.app site.
+Deployed as `text.nexalab.app`, similar to the existing `paycheck.nexalab.app` sub-project.
+
+Cloudflare DNS: add a CNAME record — `Name: text`, `Target: cname.vercel-dns.com`, `Proxy status: DNS only` (grey cloud) — then add `text.nexalab.app` as a domain in the Vercel project settings.
 
 ## SEO
 
